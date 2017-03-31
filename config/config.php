@@ -1,6 +1,6 @@
 <?php
 
-// 数据库配置
+// database
 define('DB_NAME', 'mydatabase');
 define('DB_USER', 'root');
 define('DB_PASSWORD', '');

@@ -1,14 +1,15 @@
 <?php 
 
-// 应用目录为当前目录
+// define path
 define('APP_PATH', __DIR__.'/');
 
-// 开启调试模式
+// debug mode
 define('APP_DEBUG', true);
 
-// 网站根URL
+// root url
 define('APP_URL', 'http://localhost:81/cs641');
 
-// 加载框架
+// loading framework
 require './fastphp/Fastphp.php';
 $loader = require './vendor/autoload.php';
+

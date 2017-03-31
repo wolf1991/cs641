@@ -27,9 +27,5 @@
     <!--END TABLE -->
     </FORM>
     <!--END FORM -->
-    require "lessc.inc.php";
-
-$less = new lessc;
-echo $less->compile(".block { padding: 3 + 4px }");
 </div>
 
