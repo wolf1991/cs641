@@ -11,8 +11,7 @@ class StudentController extends Controller
 
     public function search()
     {
-
-        $this->assign('title', 'Login Page');
+        $this->assign('title', 'Search');
         $this->assign('items', $items);
         $this->render();
     }
@@ -27,11 +26,16 @@ class StudentController extends Controller
 
     public function lists()
     {
+        $this->assign('title', 'Lists');
         $this->render();
     }
 
     public function register()
     {
+        $subjects = (new SubjectModel)->selectAll();
+
+        $this->assign('title', 'Register');
+        $this->assign('subjects', $subjects);
         $this->render();
     }
 }
