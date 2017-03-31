@@ -1,6 +1,7 @@
+<div>
 <h2>Students Register  Search</h2>
 
-  <p>Use this form to search students database </p>
+<p>Use this form to search students database </p>
 
   <form action="searchList.php"  method="get" name="form">
     
@@ -11,3 +12,4 @@
     </p>
     <input type="submit" name="submit" value="Search"/>
   </form>
+</div>
