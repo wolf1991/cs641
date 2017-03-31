@@ -13,7 +13,6 @@ class StudentController extends Controller
 
     public function search()
     {
-        $items = (new ItemModel)->selectAll();
 
         $this->assign('title', 'Login Page');
         $this->assign('items', $items);
@@ -22,7 +21,6 @@ class StudentController extends Controller
 
     public function searchlist()
     {
-        $items = (new ItemModel)->selectAll();
 
         $this->assign('title', 'Login Page');
         $this->assign('items', $items);
