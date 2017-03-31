@@ -1,9 +1,10 @@
+<div style="margin-left: auto;margin-right: auto;">
 <h3 > Students List </h3>
 
 <h4><a href="<?php echo APP_URL ?>/student/register">Home</a></h4>
 
 <!-- START tabel with students information -->
-<table border="1" cellpadding="2" cellspacing="2" summary = "Table holds student information" >
+<table style="margin-left: auto;margin-right: auto;" border="1" cellpadding="2" cellspacing="2" summary = "Table holds student information" >
 <tr bgcolor="#D3D3D3">
     <th> ID  </th>
   <th> First Name </th>
@@ -61,3 +62,4 @@ while ($row = mysqli_fetch_array($result) ) //since we select everything the arr
 </table>
 <!-- END TABLE -->
 <br>
+</div>

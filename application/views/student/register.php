@@ -1,3 +1,4 @@
+<div style="margin-left: auto;margin-right: auto;">
 <br>
 To add a new student to the students register use the registration form below:
 <!-- Start Form  -->
@@ -111,3 +112,4 @@ To add a new student to the students register use the registration form below:
 <!-- End Forms Table  -->
 </FORM>
 <!-- End Form  -->
+</div>

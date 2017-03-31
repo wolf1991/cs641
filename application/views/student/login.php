@@ -1,4 +1,4 @@
-<div>
+<div style="margin-left: auto;margin-right: auto;">
     <h2>Please login</h2>
 
     <p style="color:red;font-weight:bold;"><?php $msg = "Either your email or password is missing. Try again"; echo($msg) ; ?></p>
