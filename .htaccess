@@ -1,10 +1,11 @@
 <IfModule mod_rewrite.c>
-    RewriteEngine On
+    DirectoryIndex index.php
+    AddDefaultCharset utf-8
 
-    # Directly visit if exits
+    RewriteEngine on
+    Options +FollowSymlinks -MultiViews -Indexes
+
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-
-    # Redirect all visiting if not exist
     RewriteRule ^(.*)$ index.php?url=$1 [PT,L]
 </IfModule>

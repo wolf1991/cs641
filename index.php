@@ -7,7 +7,8 @@ define('APP_PATH', __DIR__.'/');
 define('APP_DEBUG', true);
 
 // root url
-define('APP_URL', 'http://localhost:81/cs641');
+//define('APP_URL', 'http://cs641.com/cs641avsx');
+define('APP_URL', 'http://localhost:81/cs641avsx');
 
 // loading framework
 require './fastphp/Fastphp.php';
