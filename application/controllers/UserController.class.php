@@ -1,6 +1,6 @@
 <?php
  
-class StudentController extends Controller
+class UserController extends Controller
 {
     // 
     public function login()
@@ -11,14 +11,14 @@ class StudentController extends Controller
 
     public function signup()
     {
-        $this->assign('title', 'Search');
+        $this->assign('title', 'Sign Up');
         $this->render();
     }
 
     public function logout()
     {
 
-        $this->assign('title', 'Login Page');
+        $this->assign('title', 'Logout');
         $this->render();
     }
 }
