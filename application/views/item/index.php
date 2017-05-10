@@ -1,7 +1,9 @@
-<form action="<?php echo APP_URL ?>/item/add" method="post">
-    <input type="text" value="点击添加" onclick="this.value=''" name="value">
-    <input type="submit" value="添加">
-</form>
+
+<form method="post" action="<?php echo APP_URL ?>/item/add" enctype="multipart/form-data"> 
+    <input type="hidden" value="204800" name="MAX_FILE_SIZE"/> 
+    File: <input type="file" name="imgfile" /> 
+    <input type="submit" value="OK" name="submitbtn" style="width:100px;height:23px"/></center> 
+</form> 
 <br/><br/>
 
 <?php $number = 0?>
