@@ -31,7 +31,7 @@
               <i class="fa fa-lock"></i>
           </div>
           <div class="form-group">
-              <button type="submit"  data-dismiss="modal" class="btn btn-default">Create</button>
+              <button type="submit" class="btn btn-default">Create</button>
           </div>
         </form>
       </div>

@@ -16,7 +16,6 @@
           <div style="font-family: 'Goudy Bookletter 1911';" class="carousel-caption">
             <h1>“The object of art is not to reproduce reality, but to create a reality of the same intensity”</h1>
             <p style="font-family: 'Cinzel Decorative'; text-align:right;">--Alberto Giacometti</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Log in</a></p>
           </div>
         </div>
       </div>
@@ -103,7 +102,7 @@
       <div class="col-md-7">
         <h2 class="featurette-heading">Art <span class="text-muted">Explore the artist within. Reward yourself. </span></h2>
         <p class="lead">We work in the dark — we do what we can — we give what we have. Our doubt is our passion and our passion is our task. The rest is the madness of art.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-default" href="<?php echo APP_URL ?>/gallery/art" data-toggle="modal" data-target="#indexModal" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-5">
         <img class="featurette-image img-responsive center-block" src="<?php echo APP_URL ?>/application/resources/default.jpg" data-src="<?php echo APP_URL ?>/application/resources/temp/1.jpg" alt="Generic placeholder image">
@@ -116,7 +115,7 @@
       <div class="col-md-7 col-md-push-5">
         <h2 class="featurette-heading">Photography <span class="text-muted">The substance behind the surface.</span></h2>
         <p class="lead">It's never been about the gear. It's always been about seeing something, knowing how you want it to look, and making it so.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-default" href="<?php echo APP_URL ?>/gallery/photography" data-toggle="modal" data-target="#indexModal" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-5 col-md-pull-7">
         <img class="featurette-image img-responsive center-block" src="<?php echo APP_URL ?>/application/resources/default.jpg" data-src="<?php echo APP_URL ?>/application/resources/temp/2.jpg" alt="Generic placeholder image">
@@ -129,7 +128,7 @@
       <div class="col-md-7">
         <h2 class="featurette-heading">Painting <span class="text-muted">Start with life. And evolve.</span></h2>
         <p class="lead">Want to learn photography? Study painting. Switch your imagination into gear. </p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-default" href="<?php echo APP_URL ?>/gallery/painting" data-toggle="modal" data-target="#indexModal" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-5">
         <img class="featurette-image img-responsive center-block" src="<?php echo APP_URL ?>/application/resources/default.jpg" data-src="<?php echo APP_URL ?>/application/resources/temp/3.jpg" alt="Generic placeholder image">

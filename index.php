@@ -16,3 +16,5 @@ define('APP_URL', 'http://cs641.com/cs641avsx');
 // loading framework
 require './fastphp/Fastphp.php';
 $loader = require './vendor/autoload.php';
+
+// ChromePhp::log("每次都有??");

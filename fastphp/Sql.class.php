@@ -60,6 +60,16 @@ class Sql
         return $sth->fetch();
     }
 
+    public function selectImg($id)
+    {
+        $sql = sprintf("select * from `%s` where `id` = '%s'", $this->_table, $id);
+        $sth = $this->_dbHandle->prepare($sql);
+        
+        $sth->bindColumn(2, $bin_data, PDO::PARAM_LOB);
+        $sth->execute();
+        return $sth->fetch();
+    }
+
     // 根据条件 (id) 删除
     public function delete($id)
     {

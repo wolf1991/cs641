@@ -150,3 +150,7 @@
     font-size: 18px;
     line-height: 20px;
 }
+
+.gallery-text {
+    padding: 10px;
+}

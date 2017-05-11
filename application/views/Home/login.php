@@ -25,7 +25,7 @@
                   <label for="checkbox1"></label>
               </div>
               <span class="text">Remember me</span>
-              <button type="submit"  data-dismiss="modal" class="btn btn-default">Login</button>
+              <button type="submit" class="btn btn-default">Login</button>
           </div>
         </form>
       </div>

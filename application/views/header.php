@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <link type="text/css" href="<?php echo APP_URL ?>/application/resources/carousel.css" rel="stylesheet">
+  <link href='//fonts.googleapis.com/css?family=Almendra Display' rel='stylesheet'>
+
   <style type="text/css">
     <?php include APP_PATH . 'application/resources/style.css.php'; ?>
   </style>
@@ -38,9 +40,9 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery Guides <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">ART</a></li>
-                  <li><a href="#">Photography</a></li>
-                  <li><a href="#">Painting</a></li>
+                  <li><a href="<?php echo APP_URL ?>/gallery/art" data-toggle="modal" data-target="#indexModal">ART</a></li>
+                  <li><a href="<?php echo APP_URL ?>/gallery/photography" data-toggle="modal" data-target="#indexModal">Photography</a></li>
+                  <li><a href="<?php echo APP_URL ?>/gallery/painting" data-toggle="modal" data-target="#indexModal">Painting</a></li>
                 </ul>
               </li>
               <li role="separator" class="divider"></li>
